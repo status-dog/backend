@@ -1,0 +1,17 @@
+{
+  "version": "1.0.4",
+  "name": "status-dog-backend",
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "^4.7.4",
+    "typescript-formatter": "^7.2.2"
+  },
+  "dependencies": {
+    "hono": "^2.0.6"
+  },
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "format": "tsfmt -r"
+  },
+  "module": "src/index.js"
+}
